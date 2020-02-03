@@ -1,0 +1,211 @@
+    
+        .header_section .top-bar {
+            height: 20px;
+            background-color: #1E2252;
+        }
+
+        .banner_section {
+            /* Use this line below to change the banner reference image */
+            background: url("https://placehold.it/1900x300");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .logo-img {
+            margin: 0.5%;
+            /* border: #1E2252 1px solid; */
+        }
+
+        .navbar {
+            background-color: #1E2252;
+        }
+
+        .nav-item a {
+            color: white;
+        }
+
+        .nav-item a:hover {
+            color: lightgrey;
+        }
+
+        .nav-link {
+            padding: 5px !important;
+        }
+
+        .desc-header {
+            font-size: 20px;
+        }
+
+        .product-title-container {
+            /* display: flex;
+            width: 100%;
+            flex-direction: row;
+            align-items: center; */
+        }
+
+        .product-title {
+            padding-top: 10px;
+            line-height: 200%;
+            padding-bottom: 30px;
+            color: #1E2252;
+            font-size: 200%;
+            text-align: center;
+        }
+
+        .product-img-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .general-desc {
+            padding-top: 2%;
+            padding-bottom: 2%;
+        }
+
+        .detailed-description-section {
+            margin-top: 20px;
+        }
+
+        .detailed-description {
+            background: #1E2252;
+            padding-left: 4.5% !important;
+        }
+
+        .specs {
+            padding: 5%;
+        }
+
+        .detailed-information {
+            padding-top: 20px;
+        }
+
+        .description-title {
+            color: white;
+            vertical-align: middle;
+            font-size: 20px;
+            padding: 10px;
+            padding-top: 15px;
+            font-weight: 600;
+        }
+
+        .interested-body {
+            border-left: 1px dashed lightgrey;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .product-card {
+            border: 1px solid grey;
+            max-width: 250px;
+            border-radius: 5px;
+        }
+
+        .product-card-title {
+            padding-top: 5px;
+        }
+
+        .product-card-title .card-title {
+            font-size: 15px;
+        }
+
+        .product-card-content {
+            padding: 4%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .product-card-cta {
+            width: 100%;
+            background-color: #1E2252;
+            padding: 4%;
+            color: white;
+
+        }
+
+        .tab-information {
+            background: url("https://placehold.it/1920x1080");
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+        input {
+            display: none;
+        }
+
+        label {
+            font-weight: 700;
+            font-size: 18px;
+            display: block;
+            width: 20%;
+            padding: 10px;
+            border-radius: 5px 5px 0 0;
+            color: white;
+            margin-bottom: 0;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            background-color: #1E2252;
+        }
+
+        .tab-content {
+            /* position: relative; */
+        }
+
+        .about-header {
+            font-weight: 600;
+            font-size: 18px;
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px 5px 0 0;
+            color: white;
+            margin-bottom: 0;
+            text-decoration: none;
+            text-align: left;
+            background-color: #1E2252;
+        }
+
+        .about-content {
+            background-color: white;
+        }
+
+        .tab-container label {
+            display: inline-block;
+        }
+
+        #shippingContent,
+        #returnContent,
+        #paymentContent {
+            display: none;
+        }
+
+        #shippingTab:checked~#shippingContent,
+        #returnTab:checked~#returnContent,
+        #paymentTab:checked~#paymentContent {
+            display: block;
+            padding: 20px;
+            background: #fff;
+            color: #999;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .interested-header{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            vertical-align: middle;
+            justify-content: center;
+        }
+        .interested-header h3{
+            font-style: italic;
+            font-size: 35px;
+            line-height: normal;
+            text-align: center;
+            font-weight: 200;
+        }
